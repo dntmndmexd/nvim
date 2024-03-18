@@ -1,0 +1,6 @@
+{
+  "flit.nvim": { "branch": "main", "commit": "94419242ba07170b0009514d745e617b120964f4" },
+  "lazy.nvim": { "branch": "main", "commit": "83493db50a434a4c5c648faf41e2ead80f96e478" },
+  "leap.nvim": { "branch": "main", "commit": "812604b7b100e555062fa41c82bfd9c6c776d856" },
+  "vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" }
+}
