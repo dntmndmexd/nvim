@@ -16,3 +16,7 @@ require("lazy").setup({
     import = 'vscode.plugins'
   }
 })
+
+vim.api.nvim_create_autocmd({ "VimEnter" }, {
+  command = "TSEnable highlight",
+})
