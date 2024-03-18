@@ -10,7 +10,12 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
-      transparent = true,
+      transparent = false,
     },
+  },
+  {
+    'altercation/vim-colors-solarized',
+    priority = 1000,
+    lazy = false,
   },
 }
