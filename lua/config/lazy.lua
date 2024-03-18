@@ -20,11 +20,11 @@ vim.api.nvim_create_autocmd({ 'VimEnter' }, {
 
 require('lazy').setup({
   {
-    import = 'vscode.plugins.core',
+    import = 'config.plugins.core',
   },
   {
-    import = 'vscode.plugins.custom',
-    enabled = not vim.g.vscode,
+    import = 'config.plugins.custom',
+    enabled = not vim.g.config,
   },
 }, {
   ui = {

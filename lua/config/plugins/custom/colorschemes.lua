@@ -1,16 +1,16 @@
 return {
   {
-    "folke/tokyonight.nvim",
+    'folke/tokyonight.nvim',
     lazy = false,
     priority = 1000,
-    opts = {}
+    opts = {},
   },
   {
     'craftzdog/solarized-osaka.nvim',
     priority = 1000,
     lazy = false,
     opts = {
-      transparent = false
-    }
-  }
+      transparent = false,
+    },
+  },
 }

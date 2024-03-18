@@ -1,1 +1,1 @@
-require("vscode")
+require 'config'
