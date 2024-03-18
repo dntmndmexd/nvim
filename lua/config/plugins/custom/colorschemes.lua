@@ -10,7 +10,7 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
-      transparent = false,
+      transparent = true,
     },
   },
 }

@@ -5,8 +5,8 @@ vim.opt.relativenumber = true -- Relative
 
 vim.opt.mouse = 'a' -- Enable mouse mode
 
-if vim.g.vscode then
-  vim.opt.showmode = true -- Don't show mode unless in VSCode (replace with lualine)
+if not vim.g.vscode then
+  vim.opt.showmode = false -- Don't show mode unless in VSCode (replace with lualine)
 end
 
 vim.opt.clipboard = 'unnamedplus' -- Sync clipboard with OS
