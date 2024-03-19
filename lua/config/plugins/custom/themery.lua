@@ -2,7 +2,7 @@ return {
   'zaldih/themery.nvim',
   config = function()
     require('themery').setup {
-      themeConfigFile = './lua/config/colorscheme.lua',
+      themeConfigFile = '~/AppData/Local/nvim/lua/config/colorscheme.lua',
       themes = {
         {
           name = 'solarized-osaka',
