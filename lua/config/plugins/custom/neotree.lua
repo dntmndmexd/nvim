@@ -64,14 +64,14 @@ return {
   opts = {
     sources = { 'filesystem', 'buffers', 'git_status', 'document_symbols' },
     open_files_do_not_replace_types = { 'terminal', 'Trouble', 'trouble', 'qf', 'Outline' },
-    close_if_last_window = false,
-    mappings = {
-      filesystem = {
-        bind_to_cwd = false,
-        follow_current_file = { enabled = true },
-        use_libuv_file_watcher = true,
-      },
-      window = {
+    filesystem = {
+      bind_to_cwd = false,
+      follow_current_file = { enabled = true },
+      use_libuv_file_watcher = true,
+      hijack_netrw_behavior = 'open_default',
+    },
+    window = {
+      mappings = {
         ['<space>'] = 'none',
         ['Y'] = {
           function(state)

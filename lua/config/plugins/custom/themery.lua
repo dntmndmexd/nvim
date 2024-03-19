@@ -33,6 +33,13 @@ return {
             vim.opt.background = "light"
           ]],
         },
+        {
+          name = 'solarized light',
+          colorscheme = 'solarized',
+          before = [[
+            vim.opt.background = "light"
+          ]],
+        },
       },
     }
   end,
