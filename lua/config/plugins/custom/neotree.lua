@@ -4,7 +4,7 @@ return {
   cmd = 'Neotree',
   dependencies = {
     'nvim-lua/plenary.nvim',
-    'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
+
     'MunifTanjim/nui.nvim',
     {
       's1n7ax/nvim-window-picker',
@@ -64,6 +64,7 @@ return {
   opts = {
     sources = { 'filesystem', 'buffers', 'git_status', 'document_symbols' },
     open_files_do_not_replace_types = { 'terminal', 'Trouble', 'trouble', 'qf', 'Outline' },
+    close_if_last_window = false,
     filesystem = {
       bind_to_cwd = false,
       follow_current_file = { enabled = true },

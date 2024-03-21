@@ -24,5 +24,9 @@ return {
     lazy = false,
   },
   { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
-  { 'altercation/vim-colors-solarized', priority = 1000 },
+  {
+    'maxmx03/solarized.nvim',
+    lazy = false,
+    priority = 1000,
+  },
 }
