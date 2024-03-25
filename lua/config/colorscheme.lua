@@ -4,7 +4,7 @@ if not vim.g.vscode then
 vim.opt.background = "dark"
 
 
-vim.cmd("colorscheme solarized")
-vim.g.theme_id = 6
+vim.cmd("colorscheme solarized-osaka")
+vim.g.theme_id = 1
 -- end themery block
 end
