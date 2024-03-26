@@ -18,15 +18,15 @@ return {
       },
     },
   },
-  {
-    'nyoom-engineering/oxocarbon.nvim',
-    priority = 1000,
-    lazy = false,
-  },
   { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
   {
     'maxmx03/solarized.nvim',
     lazy = false,
     priority = 1000,
+    opts = {
+      enables = {
+        indentblankline = false,
+      },
+    },
   },
 }

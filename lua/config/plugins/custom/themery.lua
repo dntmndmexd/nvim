@@ -11,21 +11,6 @@ return {
             vim.opt.background = "dark"
           ]],
         },
-
-        {
-          name = 'oxocarbon',
-          colorscheme = 'oxocarbon',
-          before = [[
-            vim.opt.background = "light"
-          ]],
-        },
-        {
-          name = 'tokyonight-day',
-          colorscheme = 'tokyonight-day',
-          before = [[
-            vim.opt.background = "light"
-          ]],
-        },
         {
           name = 'catppuccin-latte',
           colorscheme = 'catppuccin-latte',

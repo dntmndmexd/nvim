@@ -123,6 +123,8 @@ vim.keymap.set('n', '<leader>|', '<C-W>v', { desc = 'Split window right', remap 
 
 vim.keymap.set('n', '<leader>fT', '<cmd>terminal<cr>', { desc = 'Terminal (root dir)' })
 
+vim.keymap.set('n', '<leader>ut', '<cmd>Themery<cr>', { desc = 'Theme picker', silent = true })
+
 -- [ Autocommands ]
 
 local function augroup(name)
